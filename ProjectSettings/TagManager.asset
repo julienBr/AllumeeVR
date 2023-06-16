@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - Target
+  - Source1
+  - Source2
+  - Ground
+  - Recepteur1
+  - Recepteur2
+  - Recepteur3
+  - ObjectToTeleport
+  - RedDoor
+  - BlueDoor
+  - obstacle
+  - Source
+  - Source0
+  - Receptor0
+  - Receptor1
+  - Receptor2
+  - Receptor3
+  - Door
+  - Clone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ignore Mirror Collider
+  - Water
+  - UI
+  - Ignore Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Pushable
+  - Character Collider
+  - Character Controller
+  - Teleport
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
