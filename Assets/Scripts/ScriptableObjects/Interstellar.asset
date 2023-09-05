@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316c6d7274c5d5643988a5b3dcf5a60f, type: 3}
+  m_Name: Interstellar
+  m_EditorClassIdentifier: 
+  name: Interstellar
+  audioClip: {fileID: 8300000, guid: 1dbadac8019357942b17495f7b811036, type: 3}
+  listVideo:
+  - {fileID: 32900000, guid: 6e1253f580ee66c45aad91df33b680d7, type: 3}
+  - {fileID: 32900000, guid: 378fa6b096c1e074eb4f873b0de260d3, type: 3}
+  - {fileID: 32900000, guid: 1f5834b37c205c74c8a1dd7703204d88, type: 3}
+  - {fileID: 32900000, guid: d4ef7c672792b0246b50eef96bb6cacd, type: 3}
+  - {fileID: 32900000, guid: fb4bc79b344554642bc93ed891a1ade2, type: 3}
+  - {fileID: 32900000, guid: f5ffce66feb8e6a469d30084f6867f9f, type: 3}

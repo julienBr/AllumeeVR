@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316c6d7274c5d5643988a5b3dcf5a60f, type: 3}
+  m_Name: CielDeFete
+  m_EditorClassIdentifier: 
+  name: "Ciel de F\xEAte"
+  audioClip: {fileID: 8300000, guid: fe8168d53fa0f1d40bb9411f66b5d041, type: 3}
+  listVideo:
+  - {fileID: 32900000, guid: f780432eda1aaec45b5b6f1405ace96c, type: 3}
+  - {fileID: 32900000, guid: fa6cf620d6b2e1941818441a59ae6b14, type: 3}
+  - {fileID: 32900000, guid: dc93ab2756e9a984498a4a353b1a5c0d, type: 3}
+  - {fileID: 32900000, guid: cf815c63a33509645b38582c4d2e494c, type: 3}
+  - {fileID: 32900000, guid: ce3e8b891fe0fb04485c5435d5ffa901, type: 3}
+  - {fileID: 32900000, guid: d7f475e374d4dca48b795370b136f571, type: 3}
+  - {fileID: 32900000, guid: ff651412baa76e64ca94b8a46d4c2a19, type: 3}
+  - {fileID: 32900000, guid: 2c951aed30bb97f418249f400689541a, type: 3}
+  - {fileID: 32900000, guid: e4bca3747738e164a94d00ea4c88fe37, type: 3}
+  - {fileID: 32900000, guid: 2dfe0770fedc70f4ba0d7aa4a9988859, type: 3}
+  - {fileID: 32900000, guid: 388b60d803a844d4184a0eb38c1e0e63, type: 3}
