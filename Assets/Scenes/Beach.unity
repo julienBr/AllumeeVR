@@ -1040,26 +1040,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3608014055502765333, guid: aedc04600809d614cb7d42c7b843eb62,
-        type: 3}
-      propertyPath: orthographic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3608014055502765333, guid: aedc04600809d614cb7d42c7b843eb62,
-        type: 3}
-      propertyPath: field of view
-      value: 60.000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3608014055502765333, guid: aedc04600809d614cb7d42c7b843eb62,
-        type: 3}
-      propertyPath: m_FocalLength
-      value: 20.78461
-      objectReference: {fileID: 0}
-    - target: {fileID: 3608014055502765333, guid: aedc04600809d614cb7d42c7b843eb62,
-        type: 3}
-      propertyPath: m_projectionMatrixMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6746525178115929552, guid: aedc04600809d614cb7d42c7b843eb62,
         type: 3}
       propertyPath: m_Name
