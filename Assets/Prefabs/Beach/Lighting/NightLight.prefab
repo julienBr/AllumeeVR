@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5092082813177530693
+--- !u!1 &4428010256004657813
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4804263867500059512}
-  - component: {fileID: 2682516688032112004}
-  - component: {fileID: 8105855566906808357}
+  - component: {fileID: 4140471620277231784}
+  - component: {fileID: 6837576115391178324}
+  - component: {fileID: 838809973067244533}
   m_Layer: 0
   m_Name: NightLight
   m_TagString: Untagged
@@ -18,34 +18,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4804263867500059512
+--- !u!4 &4140471620277231784
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5092082813177530693}
-  m_LocalRotation: {x: 0.9396927, y: 0, z: 0, w: 0.34202018}
+  m_GameObject: {fileID: 4428010256004657813}
+  m_LocalRotation: {x: -0.07353523, y: 0.9242547, z: -0.229586, w: -0.29603407}
   m_LocalPosition: {x: 0, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 140, y: 0, z: 0}
---- !u!108 &2682516688032112004
+  m_LocalEulerAnglesHint: {x: 27.9, y: 215.52, z: 0}
+--- !u!108 &6837576115391178324
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5092082813177530693}
+  m_GameObject: {fileID: 4428010256004657813}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.3326407, g: 0.45200002, b: 0.45200002, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.34666666, g: 0.4, b: 0.29111114, a: 1}
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -90,18 +90,18 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 20000
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 24.056442}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0.000001702816}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0.5
---- !u!114 &8105855566906808357
+--- !u!114 &838809973067244533
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5092082813177530693}
+  m_GameObject: {fileID: 4428010256004657813}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
