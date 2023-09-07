@@ -574,7 +574,7 @@ PrefabInstance:
     - target: {fileID: 7098056531320347044, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
       propertyPath: simulationSpeed
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531320347044, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
@@ -583,8 +583,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531320347044, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531320347044, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531320347044, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
       propertyPath: VelocityModule.speedModifier.scalar
       value: 2.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531320347045, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: m_SortMode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531320347047, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
@@ -599,7 +614,12 @@ PrefabInstance:
     - target: {fileID: 7098056531445907534, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
       propertyPath: simulationSpeed
-      value: 5
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531445907534, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531445907534, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
@@ -608,13 +628,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531445907534, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531445907534, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531445907534, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
       propertyPath: VelocityModule.speedModifier.scalar
       value: 2.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531445907535, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: m_SortMode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531823139916, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
       propertyPath: simulationSpeed
-      value: 5
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531823139916, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531823139916, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
@@ -623,8 +663,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531823139916, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531823139916, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531823139916, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
       propertyPath: VelocityModule.speedModifier.scalar
       value: 2.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098056531823139917, guid: 725d935985a891e44b11a5159455f73e,
+        type: 3}
+      propertyPath: m_SortMode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7098056531823139919, guid: 725d935985a891e44b11a5159455f73e,
         type: 3}

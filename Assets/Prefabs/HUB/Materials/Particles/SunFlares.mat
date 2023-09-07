@@ -10,7 +10,10 @@ Material:
   m_Name: SunFlares
   m_Shader: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
   m_ValidKeywords:
+  - _ALPHAMODULATE_ON
+  - _COLORADDSUBDIFF_ON
   - _EMISSION
+  - _RECEIVE_SHADOWS_OFF
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _FLIPBOOKBLENDING_OFF
@@ -70,13 +73,13 @@ Material:
     m_Floats:
     - PixelSnap: 0
     - _AlphaClip: 0
-    - _Blend: 0
+    - _Blend: 3
     - _BlendOp: 0
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
+    - _ColorMode: 2
     - _Cull: 0
     - _Cutoff: 0.27
     - _DetailNormalMapScale: 1
@@ -84,7 +87,7 @@ Material:
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _FlipbookBlending: 0
     - _FlipbookMode: 0
     - _GlossMapScale: 1
@@ -96,24 +99,24 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
+    - _ReceiveShadows: 0
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 5
+    - _SrcBlend: 2
     - _Surface: 1
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 0.7647059, b: 0, a: 1}
-    - _BaseColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
+    - _BaseColorAddSubDiff: {r: -1, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 0.7647059, b: 0, a: 1}
     - _EmisColor: {r: 0.13235295, g: 0.09067384, b: 0.00097318436, a: 1}
-    - _EmissionColor: {r: 95.87451, g: 74.2902, b: 0, a: 1}
+    - _EmissionColor: {r: 1.216786, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _TintColor: {r: 1, g: 0.7655173, b: 0, a: 0.20392157}
   m_BuildTextureStacks: []

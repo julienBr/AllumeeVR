@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 178f6bdb29e3a50439864d66b6780cb3
+  - enabled: 1
+    path: Assets/Scenes/HUB.unity
+    guid: e8ba99d3ea1d41b4fb8864460bd62b6d
+  - enabled: 1
+    path: Assets/Scenes/Beach.unity
+    guid: 648d3e53cd11af12a000e6888f962b59
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 9a18cc5d35536fd428eb6e90b3402589
+  - enabled: 1
+    path: Assets/Scenes/Stadium.unity
+    guid: a12b1d7694e3226459e316ab3c418f1b
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7c84a2fb1a61be4419ea645112d3a428,
       type: 2}
