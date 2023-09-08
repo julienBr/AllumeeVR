@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material
-  m_Shader: {fileID: -6465566751694194690, guid: cb2a73181a55b4149a2c174ba35fd8eb,
+  m_Shader: {fileID: -6465566751694194690, guid: bbd005c35058ab14994cea4e031a51b9,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -54,6 +54,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_f1ea26f698c3407ba7225b183ea16896_Texture2D8C55BE6_1865289364:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -75,7 +79,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpriteSheet:
-        m_Texture: {fileID: 2800000, guid: 7318e6ec45a1bab4eaf7f779fdd47da9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 190fa9e0155037645ad5f28a67d0c960, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_ada5aa91c3ca49b88013ca2c6d2e90b2_Out_0:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -103,7 +111,7 @@ Material:
     - _GlossyReflections: 1
     - _Grid_X: 38
     - _Grid_Y: 38
-    - _Intensity: 2
+    - _Intensity: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -115,6 +123,8 @@ Material:
     - _Speed: 24
     - _SrcBlend: 1
     - _UVSec: 0
+    - _X_Axis: 38
+    - _Y_Axis: 38
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
