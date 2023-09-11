@@ -3162,7 +3162,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
@@ -5339,6 +5339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Set Up HUB
       objectReference: {fileID: 0}
+    - target: {fileID: 4942134478641797488, guid: dc09bbe87ae574b4e90d5b7a3e693512,
+        type: 3}
+      propertyPath: m_AllowXRRendering
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8198963472623594701, guid: dc09bbe87ae574b4e90d5b7a3e693512,
         type: 3}
       propertyPath: m_RootOrder
@@ -5709,7 +5714,7 @@ PrefabInstance:
     - target: {fileID: 4604219871719505098, guid: f3a06ea26206b57459e9a9d62cc1b679,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4604219871719505099, guid: f3a06ea26206b57459e9a9d62cc1b679,
         type: 3}
