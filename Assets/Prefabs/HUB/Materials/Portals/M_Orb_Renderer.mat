@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Orb_Renderer
-  m_Shader: {fileID: 4800000, guid: babcada8050c70142b5a28f6e6f68739, type: 3}
+  m_Shader: {fileID: 4800000, guid: d30043f5b4dc2d443a9d276f7df53475, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
