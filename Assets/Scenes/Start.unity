@@ -282,6 +282,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b68a10de80cac4e97574d664c26ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputSourceLeft: 4
+  inputSourceRight: 5
+  inputButton: 2
+  InputThreshold: 0.1
   _source: {fileID: 603687919}
   _fader: {fileID: 1351381326}
   _scene: {fileID: 0}
@@ -456,11 +460,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5846271341421030448, guid: 390490801faeac948a6da8f0b528e2c1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7688004707426073515, guid: 390490801faeac948a6da8f0b528e2c1,
         type: 3}

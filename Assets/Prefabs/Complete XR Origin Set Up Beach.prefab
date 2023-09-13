@@ -1371,7 +1371,7 @@ GameObject:
   - component: {fileID: 9187988933308575801}
   - component: {fileID: 672231323447488454}
   - component: {fileID: 2833687960260286878}
-  - component: {fileID: 2204001200589225268}
+  - component: {fileID: 7331369857964168961}
   m_Layer: 0
   m_Name: Ray Interactor
   m_TagString: Untagged
@@ -1629,7 +1629,7 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
---- !u!114 &2204001200589225268
+--- !u!114 &7331369857964168961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5068,6 +5068,7 @@ GameObject:
   - component: {fileID: 3498648661100959498}
   - component: {fileID: 7015065234990001885}
   - component: {fileID: 4845310316178090087}
+  - component: {fileID: 2204001200589225268}
   m_Layer: 0
   m_Name: Event System
   m_TagString: Untagged
@@ -5112,7 +5113,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5039383255085938618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
   m_Name: 
@@ -5151,6 +5152,34 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
+--- !u!114 &2204001200589225268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5039383255085938618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e569dc832500047bf4350b4dae9b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  controlMethod: 0
+  submitButtonName: Fire1
+  mainEventCamera: {fileID: 0}
+  raycastLayerMask:
+    serializedVersion: 2
+    m_Bits: 32
+  gazeUseTimedClick: 0
+  gazeClickTimer: 2
+  gazeClickTimerDelay: 1
+  gazeTimedClickProgressImage: {fileID: 0}
+  worldSpaceMouseSensitivity: 1
+  usedHand: 1
+  pointerTransformOverride: {fileID: 0}
+  rightXRController: {fileID: 0}
+  leftXRController: {fileID: 0}
 --- !u!1 &5162307768315485122
 GameObject:
   m_ObjectHideFlags: 0
@@ -8937,6 +8966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MenuBackToHUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 328563644430364888, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 328563644430364889, guid: 31039996a8e7364458f228c8634292ef,
         type: 3}

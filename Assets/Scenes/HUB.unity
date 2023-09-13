@@ -1012,6 +1012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b68a10de80cac4e97574d664c26ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputSource: 0
+  inputButton: 0
+  InputThreshold: 0.1
   _source: {fileID: 0}
   _fader: {fileID: 1924339331}
   _scene: {fileID: 1138063588}
@@ -2021,6 +2024,40 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.075
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &412539552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9069216924471601859, guid: dc09bbe87ae574b4e90d5b7a3e693512,
+    type: 3}
+  m_PrefabInstance: {fileID: 1807344733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &412539553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412539552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e569dc832500047bf4350b4dae9b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  controlMethod: 0
+  submitButtonName: Fire1
+  mainEventCamera: {fileID: 0}
+  raycastLayerMask:
+    serializedVersion: 2
+    m_Bits: 32
+  gazeUseTimedClick: 0
+  gazeClickTimer: 2
+  gazeClickTimerDelay: 1
+  gazeTimedClickProgressImage: {fileID: 0}
+  worldSpaceMouseSensitivity: 1
+  usedHand: 1
+  pointerTransformOverride: {fileID: 0}
+  rightXRController: {fileID: 0}
+  leftXRController: {fileID: 0}
 --- !u!1 &451200969
 GameObject:
   m_ObjectHideFlags: 0
@@ -6987,7 +7024,7 @@ PrefabInstance:
     - target: {fileID: 7758157151675395257, guid: ce5baba4627b02f46a22d218deafe904,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1231
+      value: 1280
       objectReference: {fileID: 0}
     - target: {fileID: 7758157151675395257, guid: ce5baba4627b02f46a22d218deafe904,
         type: 3}
@@ -8574,6 +8611,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1320818943}
     m_Modifications:
+    - target: {fileID: 993530816238883028, guid: dc09bbe87ae574b4e90d5b7a3e693512,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4292888408558577095, guid: dc09bbe87ae574b4e90d5b7a3e693512,
         type: 3}
       propertyPath: m_Name

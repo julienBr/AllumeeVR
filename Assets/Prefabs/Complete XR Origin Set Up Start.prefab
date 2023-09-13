@@ -28,7 +28,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328991000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1231}
+  m_LocalPosition: {x: 0, y: 0, z: 1280}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5358,7 +5358,7 @@ PrefabInstance:
     - target: {fileID: 4604219871719505098, guid: f3a06ea26206b57459e9a9d62cc1b679,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4604219871719505099, guid: f3a06ea26206b57459e9a9d62cc1b679,
         type: 3}
@@ -5487,11 +5487,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
   savedPos: {x: 0, y: 0, z: 0}
-  savedUp: {x: 0, y: 0, z: 0}
-  savedRectSize: {x: 0, y: 0}
-  savedColor: {r: 0, g: 0, b: 0, a: 0}
+  savedUp: {x: 0, y: 1, z: 0}
+  savedRectSize: {x: 3840, y: 2160}
+  savedColor: {r: 0, g: 0, b: 0, a: 1}
   savedTextUV0: {x: 0, y: 0, z: 0, w: 0}
-  savedFill: 0
+  savedFill: 1
 --- !u!224 &5846271341421030449 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4604219871719505099, guid: f3a06ea26206b57459e9a9d62cc1b679,

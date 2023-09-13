@@ -2,9 +2,17 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Controllers")]
+    [SerializeField] private XRNode inputSourceLeft;
+    [SerializeField] private XRNode inputSourceRight;
+    [SerializeField] private InputHelpers.Button inputButton;
+    [SerializeField] private float InputThreshold = 0.1f;
+    
     [Header("Start")]
     [SerializeField] private AudioSource _source;
     
@@ -48,7 +56,9 @@ public class GameManager : MonoBehaviour
     
     private void Update()
     {
-        if(_currentScene == "Start" && Input.anyKeyDown) StartCoroutine(ThrowGame());
+        InputDevices.GetDeviceAtXRNode(inputSourceLeft).IsPressed(inputButton, out bool isPressedLeft, InputThreshold);
+        InputDevices.GetDeviceAtXRNode(inputSourceRight).IsPressed(inputButton, out bool isPressedRight, InputThreshold);
+        if(_currentScene == "Start" && isPressedLeft || isPressedRight) StartCoroutine(ThrowGame());
     }
        
     private IEnumerator ThrowGame()
