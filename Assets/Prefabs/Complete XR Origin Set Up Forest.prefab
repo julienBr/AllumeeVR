@@ -2473,13 +2473,13 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.035
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2488,7 +2488,7 @@ LineRenderer:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3630,13 +3630,13 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.035
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3645,7 +3645,7 @@ LineRenderer:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4100,13 +4100,13 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.035
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4115,7 +4115,7 @@ LineRenderer:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -5194,13 +5194,13 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.035
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -5209,7 +5209,7 @@ LineRenderer:
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 0.035
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -9043,6 +9043,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 328563644430364892, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328563644430364893, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8699847980323762620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31039996a8e7364458f228c8634292ef, type: 3}
 --- !u!224 &1816289126495398403 stripped

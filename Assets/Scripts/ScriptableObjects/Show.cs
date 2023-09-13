@@ -6,7 +6,7 @@ using UnityEngine.Video;
 
 public class Show : ScriptableObject
 {
-    public string name;
+    public string nameShow;
     public AudioClip audioClip;
     public List<VideoClip> listVideo;
 }

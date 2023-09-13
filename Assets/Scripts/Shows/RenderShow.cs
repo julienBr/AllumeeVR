@@ -5,6 +5,7 @@ using UnityEngine.Video;
 public class RenderShow : MonoBehaviour
 {
     [SerializeField] private AppData _data;
+    [SerializeField] private Renderer _matPlane;
     private VideoPlayer _videoPlayer;
     private AudioSource _audioSource;
     private int _index;
@@ -17,6 +18,8 @@ public class RenderShow : MonoBehaviour
 
     private void Start()
     {
+        //_matPlane.material.SetFloat("_Threshold", _data.actualShow._threshold[_index]);
+        //_matPlane.material.SetFloat("_Softness", _data.actualShow._softness[_index]);
         _videoPlayer.clip = _data.actualShow.listVideo[_index];
         _audioSource.clip = _data.actualShow.audioClip;
         _videoPlayer.loopPointReached += EndReached;
@@ -26,7 +29,7 @@ public class RenderShow : MonoBehaviour
 
     private IEnumerator PlayShow()
     {
-        if (_data.actualShow.name != "Interstellar") yield return new WaitForSeconds(27.5f);
+        if (_data.actualShow.nameShow == "Ciel de Fête") yield return new WaitForSeconds(27.5f);
         else yield return new WaitForSeconds(10f);
         _videoPlayer.Play();
     }
@@ -36,19 +39,21 @@ public class RenderShow : MonoBehaviour
         if (_index < _data.actualShow.listVideo.Count - 1)
         {
             _index++;
+            //_matPlane.material.SetFloat("_Threshold", _data.actualShow._threshold[_index]);
+            //_matPlane.material.SetFloat("_Softness", _data.actualShow._softness[_index]);
             vp.clip = _data.actualShow.listVideo[_index];
             vp.Play();
         }
         else
         {
             vp.Stop();
-            InvokeRepeating("DecreaseVolume", 0f, 0.1f);
+            InvokeRepeating("DecreaseVolume", 0f, .1f);
             if(_audioSource.volume == 0f) _audioSource.Stop();
         }
     }
 
     private void DecreaseVolume()
     {
-        _audioSource.volume -= 0.025f;
+        _audioSource.volume -= .025f;
     }
 }

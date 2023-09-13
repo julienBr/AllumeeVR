@@ -8933,15 +8933,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5359542681422369690}
     m_Modifications:
+    - target: {fileID: 328563643160913992, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 328563643160913993, guid: 31039996a8e7364458f228c8634292ef,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 328563643160913995, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 328563643160913998, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328563643821109524, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 328563644430364888, guid: 31039996a8e7364458f228c8634292ef,
         type: 3}
       propertyPath: m_Name
       value: MenuBackToHUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 328563644430364888, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 328563644430364889, guid: 31039996a8e7364458f228c8634292ef,
         type: 3}
@@ -9053,6 +9078,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 5359542681746727256}
+    - target: {fileID: 328563644543856360, guid: 31039996a8e7364458f228c8634292ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31039996a8e7364458f228c8634292ef, type: 3}
 --- !u!224 &3665079113077057312 stripped

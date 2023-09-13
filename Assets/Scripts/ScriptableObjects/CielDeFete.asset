@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 316c6d7274c5d5643988a5b3dcf5a60f, type: 3}
   m_Name: CielDeFete
   m_EditorClassIdentifier: 
-  name: "Ciel de F\xEAte"
+  nameShow: "Ciel de F\xEAte"
   audioClip: {fileID: 8300000, guid: fe8168d53fa0f1d40bb9411f66b5d041, type: 3}
   listVideo:
   - {fileID: 32900000, guid: f780432eda1aaec45b5b6f1405ace96c, type: 3}

@@ -128,6 +128,7 @@ public class GameManager : MonoBehaviour
     private void LoadLevel(string levelToLoad)
     {
         _loadingScreen.SetActive(true);
+        _scene.SetActive(false);
         StartCoroutine(LoadAsync(levelToLoad));
     }
 

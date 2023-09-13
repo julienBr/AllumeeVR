@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 328563643160913999}
   - component: {fileID: 328563643160913998}
   - component: {fileID: 328563643160913993}
-  m_Layer: 30
+  m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 328563643821109525}
   - component: {fileID: 328563643821109531}
   - component: {fileID: 328563643821109530}
-  m_Layer: 30
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 328563644430364892}
   - component: {fileID: 328563644430364895}
   - component: {fileID: 328563644430364894}
-  m_Layer: 30
+  m_Layer: 5
   m_Name: MenuBackToHUB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 22.5, y: 45, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.15}
+  m_AnchoredPosition: {x: 0, y: 0.15002441}
   m_SizeDelta: {x: 19.2, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &328563644430364893
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &328563644430364895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 328563644543856361}
   - component: {fileID: 328563644543856367}
   - component: {fileID: 328563644543856366}
-  m_Layer: 30
+  m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
