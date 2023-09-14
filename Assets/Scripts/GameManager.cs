@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -22,7 +21,7 @@ public class GameManager : MonoBehaviour
     [Header("Change Scene")]
     [SerializeField] private GameObject _scene;
     [SerializeField] private GameObject _loadingScreen;
-    [SerializeField] private Slider _slider;
+    [SerializeField] private Material _skybox;
 
     [Header("AppData")]
     [SerializeField] private AppData _data;
@@ -68,7 +67,11 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         _fader.GetComponent<Animator>().SetTrigger("FadeOut");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadSceneAsync("HUB");
+        AsyncOperation loadOperation = SceneManager.LoadSceneAsync("HUB");
+        while (!loadOperation.isDone)
+        {
+            yield return null;
+        }
     }
     
     public void ChooseEnvironment(string environment)
@@ -144,12 +147,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator LoadAsync(string levelToLoad)
     {
-        yield return new WaitForSeconds(3f);
+        RenderSettings.skybox = _skybox;
+        yield return new WaitForSeconds(10f);
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(levelToLoad);
         while (!loadOperation.isDone)
         {
-            float progressValue = Mathf.Clamp01(loadOperation.progress / .9f);
-            _slider.value = progressValue;
             yield return null;
         }
     }

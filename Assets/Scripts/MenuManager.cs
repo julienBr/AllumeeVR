@@ -12,16 +12,18 @@ public class MenuManager : MonoBehaviour
     [Header("Menu")]
     [SerializeField] private GameObject _backMenu;
 
-    private bool _isDisplay;
+    private bool _isDisplay, _isPressed;
     
     private void Update()
     {
         InputDevices.GetDeviceAtXRNode(inputSource).IsPressed(inputButton, out bool isPressed, InputThreshold);
-        if (isPressed)
+        if (isPressed && !_isPressed)
         {
-            if (_isDisplay) DisplayBackMenu();
+            _isPressed = true;
+            if (!_isDisplay) DisplayBackMenu();
             else HideBackMenu();
         }
+        if (!isPressed && _isPressed) _isPressed = false;
     }
 
     private void DisplayBackMenu()
