@@ -132,7 +132,7 @@ public class GameManager : MonoBehaviour
         _data.actualShow = _data.listShow[show];
         LoadLevel(_environment);
     }
-
+    
     public void BackToHUB()
     {
         LoadLevel("HUB");

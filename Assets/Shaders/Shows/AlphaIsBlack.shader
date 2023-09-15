@@ -37,7 +37,18 @@ Shader "Unlit/AlphaIsBlack"
 
                 UNITY_VERTEX_OUTPUT_STEREO
             };
- 
+
+
+
+
+
+
+
+
+
+
+
+            
             sampler2D _MainTex;
             float4 _MainTex_ST;
             float _Threshold;
@@ -58,7 +69,6 @@ Shader "Unlit/AlphaIsBlack"
  
             fixed4 frag(v2f i) : SV_Target
             {
-                // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
                 col.a = smoothstep(_Threshold, _Threshold + _Softness,
                     0.333 * (col.r + col.g + col.b));

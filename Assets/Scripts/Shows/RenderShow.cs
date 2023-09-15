@@ -5,7 +5,6 @@ using UnityEngine.Video;
 public class RenderShow : MonoBehaviour
 {
     [SerializeField] private AppData _data;
-    [SerializeField] private Renderer _matPlane;
     private VideoPlayer _videoPlayer;
     private AudioSource _audioSource;
     private int _index;
@@ -18,8 +17,6 @@ public class RenderShow : MonoBehaviour
 
     private void Start()
     {
-        //_matPlane.material.SetFloat("_Threshold", _data.actualShow._threshold[_index]);
-        //_matPlane.material.SetFloat("_Softness", _data.actualShow._softness[_index]);
         _videoPlayer.clip = _data.actualShow.listVideo[_index];
         _audioSource.clip = _data.actualShow.audioClip;
         _videoPlayer.loopPointReached += EndReached;
@@ -34,13 +31,23 @@ public class RenderShow : MonoBehaviour
         _videoPlayer.Play();
     }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     private void EndReached(VideoPlayer vp)
     {
         if (_index < _data.actualShow.listVideo.Count - 1)
         {
             _index++;
-            //_matPlane.material.SetFloat("_Threshold", _data.actualShow._threshold[_index]);
-            //_matPlane.material.SetFloat("_Softness", _data.actualShow._softness[_index]);
             vp.clip = _data.actualShow.listVideo[_index];
             vp.Play();
         }
