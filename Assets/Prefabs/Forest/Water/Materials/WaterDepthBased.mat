@@ -108,7 +108,7 @@ Material:
     - _CastShadows: 0
     - _ConservativeDepthOffsetEnable: 0
     - _Contrast: 1
-    - _Cull: 2
+    - _Cull: 0
     - _CullMode: 0
     - _CullModeForward: 0
     - _DepthBiasAlpha: 1
@@ -177,14 +177,14 @@ Material:
     - _normalStrength: 0
     - _speed: 0.001
     m_Colors:
-    - _Deep_Water_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Deep_Water_Color: {r: 0.078431375, g: 0.2509804, b: 0.22352943, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_Remap: {r: 0.66, g: 1, b: 0, a: 0}
     - _Rim_Movement: {r: 0.03, g: 0.044, b: 0, a: 0}
     - _Rim_Texture_Repeats: {r: 90, g: 90, b: 0, a: 0}
-    - _Shallow_Water_Color: {r: 0.37815857, g: 0.3962264, b: 0.20745817, a: 0}
+    - _Shallow_Water_Color: {r: 0.4433962, g: 0.43246344, b: 0.2990833, a: 1}
     - _Tiling: {r: 18, g: 18, b: 0, a: 0}
     - _fresnel_Remap: {r: 0.66, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

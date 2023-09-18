@@ -21,7 +21,8 @@ public class GameManager : MonoBehaviour
     [Header("Change Scene")]
     [SerializeField] private GameObject _scene;
     [SerializeField] private GameObject _loadingScreen;
-    [SerializeField] private Material _skybox;
+    [SerializeField] private Material _sky;
+    [SerializeField] private Material _skyLoading;
 
     [Header("AppData")]
     [SerializeField] private AppData _data;
@@ -51,19 +52,23 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _currentScene = gameObject.scene.name;
+        RenderSettings.skybox = _sky;
     }
     
     private void Update()
     {
         InputDevices.GetDeviceAtXRNode(inputSourceLeft).IsPressed(inputButton, out bool isPressedLeft, InputThreshold);
         InputDevices.GetDeviceAtXRNode(inputSourceRight).IsPressed(inputButton, out bool isPressedRight, InputThreshold);
-        if(_currentScene == "Start" && isPressedLeft || isPressedRight) StartCoroutine(ThrowGame());
+        if (_currentScene == "Start" && (isPressedLeft || isPressedRight) && !_oneTime)
+        {
+            _oneTime = true;
+            StartCoroutine(ThrowGame());
+        }
     }
        
     private IEnumerator ThrowGame()
     {
-        if(!_oneTime) _source.Play();
-        _oneTime = true;
+        if(_oneTime) _source.Play();
         yield return new WaitForSeconds(1f);
         _fader.GetComponent<Animator>().SetTrigger("FadeOut");
         yield return new WaitForSeconds(1f);
@@ -140,14 +145,15 @@ public class GameManager : MonoBehaviour
     
     private void LoadLevel(string levelToLoad)
     {
-        _loadingScreen.SetActive(true);
         _scene.SetActive(false);
         StartCoroutine(LoadAsync(levelToLoad));
     }
 
     private IEnumerator LoadAsync(string levelToLoad)
     {
-        RenderSettings.skybox = _skybox;
+        RenderSettings.skybox = _skyLoading;
+        DynamicGI.UpdateEnvironment();
+        _loadingScreen.SetActive(true);
         yield return new WaitForSeconds(10f);
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(levelToLoad);
         while (!loadOperation.isDone)

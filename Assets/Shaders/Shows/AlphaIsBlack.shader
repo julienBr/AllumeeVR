@@ -37,17 +37,6 @@ Shader "Unlit/AlphaIsBlack"
 
                 UNITY_VERTEX_OUTPUT_STEREO
             };
-
-
-
-
-
-
-
-
-
-
-
             
             sampler2D _MainTex;
             float4 _MainTex_ST;
