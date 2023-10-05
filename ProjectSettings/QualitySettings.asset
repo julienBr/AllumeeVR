@@ -79,7 +79,11 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: db25cf007412ad546911455ad8c84dac,
       type: 2}
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
+    - Server
+    - Android
+    - WebGL
   - serializedVersion: 2
     name: High
     pixelLightCount: 2
@@ -95,12 +99,12 @@ QualitySettings:
     skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 1
-    antiAliasing: 2
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 1
     maximumLODLevel: 0
     streamingMipmapsActive: 0
@@ -114,9 +118,13 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: bd18df1b141955b468f7445360ec8662,
+    customRenderPipeline: {fileID: 11400000, guid: f1aa159c1fc6a8a45bbf0195dd9ff04e,
       type: 2}
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - WebGL
+    - Android
+    - Server
+    - Standalone
   m_PerPlatformDefaultQuality:
     Android: 0
     Server: 0
