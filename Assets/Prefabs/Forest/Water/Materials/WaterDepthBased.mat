@@ -27,6 +27,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: dfd4dcd41b27bb44498bfa407660802f,
     type: 3}
   m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _DISABLE_DECALS
@@ -103,7 +104,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
-    - _Blend: 0
+    - _Blend: 1
     - _BlendMode: 0
     - _CastShadows: 0
     - _ConservativeDepthOffsetEnable: 0
@@ -143,7 +144,7 @@ Material:
     - _Rim_Smoothness: 0.1
     - _Smoothness: 0.979
     - _Speed: 0.02
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
     - _StencilRefDistortionVec: 4
