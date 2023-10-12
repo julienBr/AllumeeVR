@@ -290,7 +290,7 @@ PlayerSettings:
     m_Icons:
     - m_Textures:
       - {fileID: 2800000, guid: 80d6c4753caf87348b324f3b3fdc906f, type: 3}
-      - {fileID: 0}
+      - {fileID: 2800000, guid: 80d6c4753caf87348b324f3b3fdc906f, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
